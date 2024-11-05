@@ -1,5 +1,5 @@
 import React, {createContext, useState, useEffect} from "react";
-//import all_product from "../assets/frontend/all_product";
+import all_product from "../assets/frontend/all_product";
 
 export const ShopContext = createContext(null)
 
@@ -12,10 +12,10 @@ const getDefaultCart = () =>{
 }
 const ShopContextProvider = (props) => {
 
-    const [all_product, setAll_Product] = useState([])
+    //const [all_product, setAll_Product] = useState([])
     const [cartItems, setCartItems] = useState(getDefaultCart())
     
-    useEffect(()=>{
+    /* useEffect(()=>{
         fetch('http://localhost:4000/listproduct')
             .then(res=>res.json()).then(data=>setAll_Product(data))
 
@@ -32,11 +32,11 @@ const ShopContextProvider = (props) => {
             .then((res)=>res.json())
             .then((data)=>setCartItems(data))
         }
-    },[])
+    },[]) */
 
     const addToCart = (itemID, quantity) => {
         setCartItems((prev)=>({...prev,[itemID]:prev[itemID]+quantity}))
-        if(localStorage.getItem('auth-token')){
+        /* if(localStorage.getItem('auth-token')){
             fetch('http://localhost:4000/addtocart',{
                 method: 'POST',
                 headers:{
@@ -50,12 +50,12 @@ const ShopContextProvider = (props) => {
                 })
             })
             .then(res=>res.json()).then(data=>console.log(data))
-        }
+        } */
     }
 
     const removeFromCart = (itemID) => {
         setCartItems((prev)=>({...prev,[itemID]:prev[itemID]-1}))
-        if(localStorage.getItem('auth-token')){
+        /* if(localStorage.getItem('auth-token')){
             fetch('http://localhost:4000/removefromcart',{
                 method: 'POST',
                 headers:{
@@ -67,11 +67,11 @@ const ShopContextProvider = (props) => {
             })
             .then((res)=>res.json())
             .then(data=>console.log(data))
-        }
+        } */
     }
 
-    const removeAllFromCart = () => {
-        if (localStorage.getItem('auth-token')) {
+     const removeAllFromCart = () => {
+        /* if (localStorage.getItem('auth-token')) {
             fetch('http://localhost:4000/removeallfromcart', {
                 method: 'POST',
                 headers: {
@@ -92,8 +92,8 @@ const ShopContextProvider = (props) => {
             .catch((error) => {
                 console.error("Failed to remove all items from cart:", error);
             });
-        }
-    };
+        } */
+    }; 
 
     const getTotalCartAmount = () =>{
         let totalAmount = 0
