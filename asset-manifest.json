@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d596a6f6.css",
-    "main.js": "/static/js/main.a7a60550.js",
+    "main.js": "/static/js/main.f1fdd143.js",
     "static/js/453.7795ccfd.chunk.js": "/static/js/453.7795ccfd.chunk.js",
     "static/media/black_tea_assam.jpg": "/static/media/black_tea_assam.5dadeab6e31a801707b2.jpg",
     "static/media/White_tea.png": "/static/media/White_tea.7bfa611689543b9228fb.png",
@@ -49,11 +49,11 @@
     "static/media/upload_area.svg": "/static/media/upload_area.d8fb9fd686a4af4794bdf3f1b815a66b.svg",
     "index.html": "/index.html",
     "main.d596a6f6.css.map": "/static/css/main.d596a6f6.css.map",
-    "main.a7a60550.js.map": "/static/js/main.a7a60550.js.map",
+    "main.f1fdd143.js.map": "/static/js/main.f1fdd143.js.map",
     "453.7795ccfd.chunk.js.map": "/static/js/453.7795ccfd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d596a6f6.css",
-    "static/js/main.a7a60550.js"
+    "static/js/main.f1fdd143.js"
   ]
 }
