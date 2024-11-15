@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Coffee_Tea_Commerce_Demo/static/css/main.ee1cfd72.css",
-    "main.js": "/Coffee_Tea_Commerce_Demo/static/js/main.54449e07.js",
+    "main.css": "/Coffee_Tea_Commerce_Demo/static/css/main.dc7b4531.css",
+    "main.js": "/Coffee_Tea_Commerce_Demo/static/js/main.831d4ce8.js",
     "static/js/453.7795ccfd.chunk.js": "/Coffee_Tea_Commerce_Demo/static/js/453.7795ccfd.chunk.js",
     "static/media/black_tea_assam.jpg": "/Coffee_Tea_Commerce_Demo/static/media/black_tea_assam.5dadeab6e31a801707b2.jpg",
     "static/media/White_tea.png": "/Coffee_Tea_Commerce_Demo/static/media/White_tea.7bfa611689543b9228fb.png",
@@ -48,12 +48,12 @@
     "static/media/cart.png": "/Coffee_Tea_Commerce_Demo/static/media/cart.5c0c4acf43bfe85793a8.png",
     "static/media/upload_area.svg": "/Coffee_Tea_Commerce_Demo/static/media/upload_area.d8fb9fd686a4af4794bdf3f1b815a66b.svg",
     "index.html": "/Coffee_Tea_Commerce_Demo/index.html",
-    "main.ee1cfd72.css.map": "/Coffee_Tea_Commerce_Demo/static/css/main.ee1cfd72.css.map",
-    "main.54449e07.js.map": "/Coffee_Tea_Commerce_Demo/static/js/main.54449e07.js.map",
+    "main.dc7b4531.css.map": "/Coffee_Tea_Commerce_Demo/static/css/main.dc7b4531.css.map",
+    "main.831d4ce8.js.map": "/Coffee_Tea_Commerce_Demo/static/js/main.831d4ce8.js.map",
     "453.7795ccfd.chunk.js.map": "/Coffee_Tea_Commerce_Demo/static/js/453.7795ccfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee1cfd72.css",
-    "static/js/main.54449e07.js"
+    "static/css/main.dc7b4531.css",
+    "static/js/main.831d4ce8.js"
   ]
 }
