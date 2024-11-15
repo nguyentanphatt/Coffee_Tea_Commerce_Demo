@@ -1,0 +1,128 @@
+.item_category{
+    display: flex;
+    flex-direction: column;
+}
+
+.item_category_banner{
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+.item_category_banner img{
+    width: 80%;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.coffee_h1{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    font-size: 40px;
+    color: #3D3434;
+}
+
+.coffee_p1{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3D3434;
+}
+
+.coffee_p2{
+    position: absolute;
+    left: 70%;
+    top: 32%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3D3434;
+}
+
+.tea_h1{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    font-size: 40px;
+    color: #118906;
+}
+
+.tea_p1{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #118906;
+}
+
+.tea_p2{
+    position: absolute;
+    left: 62%;
+    top: 34%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #118906;
+}
+.seed_h1{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    font-size: 40px;
+}
+.seed_p1{
+    position: absolute;
+    left: 35%;
+    top: 27%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.seed_p2{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.item_category-detail{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.item_category-option{
+    margin-left: 20px;
+}
+
+.item_category-checkbox{
+    width: 200px;
+    padding: 10px;
+}
+
+.item_category-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.item_category-option_search{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.item_category-option_search button{
+    width: 80px;
+    height: 30px;
+    background-color: #3D3434;
+    border-radius: 2vh;
+    font-size: 14px;
+    color: white;
+}

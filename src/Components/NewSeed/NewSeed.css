@@ -1,0 +1,56 @@
+
+.bean_special{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+.bean_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #7B7979;
+    margin: 20px;
+    align-items: center;
+}
+
+.bean_banner img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.bean_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .bean_banner{
+        height: 80px;
+    }
+    .bean_banner img {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 900px){
+    .bean_banner{
+        height: 70px;
+    }
+    .bean_banner img {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width: 600px){
+    .bean_banner{
+        height: 50px;
+    }
+    .bean_banner img {
+        width: 60px;
+        height: 60px;
+    }
+}
